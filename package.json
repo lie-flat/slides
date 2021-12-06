@@ -1,4 +1,4 @@
 {
     "private": true,
-    "workspaces": ["cfps-report-deployment", "slidev-example"]
+    "workspaces": ["*"]
 }
