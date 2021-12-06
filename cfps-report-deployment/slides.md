@@ -163,6 +163,8 @@ Certbot & Let's Encrypt
 
 我们的网站将会采用 https, 并且针对使用 http 访问网站的访客，会自动 301 跳转到 https .
 
+https://cfps-report.kxxt.tech/
+
 ::right::
 
 ```bash
@@ -188,3 +190,15 @@ Deploying certificate
 Successfully deployed certificate for cfps-report.kxxt.tech to /etc/nginx/sites-enabled/cfps-report.kxxt.tech
 Congratulations! You have successfully enabled HTTPS on https://cfps-report.kxxt.tech
 ```
+
+---
+layout: two-cols
+---
+# 结束
+网站效果
+
+感谢您的观看
+
+::right::
+
+<img src="slides.assets/image-20211207000221264.png" alt="image-20211207000221264" style="height: 100%;" />
