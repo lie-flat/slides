@@ -30,10 +30,6 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-
-.shiki-container {
-  height: 44vh;
-}
 </style>
 
 # CFPS 数据可视化网站主干代码
@@ -43,6 +39,8 @@ h1 {
 #### 2020级 数据科学与人工智能实验班
 
 #### 讲解人：任鹏飞
+
+#### 2021 年 12 月 8 日
 
 ---
 layout: two-cols
@@ -285,7 +283,7 @@ layout: two-cols
 
 <style>
   .shiki-container {
-    height: 44vh;
+    height: 27rem;
   }
   
 </style>
@@ -395,7 +393,7 @@ export default defineComponent({
 - 在 hero-body 部分，我们使用 Animate.css 的动画类来实现炫酷的首页动画。
 - 我们利用不蒜子进行网站的访客统计。
 - 最底下的是我们对 Bulma 默认样式的一些微调，使用的是 <code style="color: hotpink;">SCSS</code> 语言。
-  - 其中，我们把背景的 `attachment`s 设置为 `fixed`，使得背景图片不会跟随滚动条滚动。
+  - 其中，我们把背景的 `attachment` 设置为 `fixed`，使得背景图片不会跟随滚动条滚动。
   - 其他的都是些字号、位置和颜色的微调，没有什么好讲的。
 
 </div>
@@ -515,6 +513,13 @@ export default defineComponent({
 </template>
 ```
 
+
+<style>
+.shiki-container {
+  height: 27rem;
+}
+</style>
+
 ---
 
 # TableOfContents.vue
@@ -564,6 +569,12 @@ export default defineComponent({
 });
 </script>
 ```
+<style>
+  .shiki-container {
+    height: 27rem;
+  }
+  
+</style>
 
 ---
 layout: two-cols

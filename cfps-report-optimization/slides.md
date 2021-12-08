@@ -40,6 +40,8 @@ h1 {
 
 #### 讲解人：任鹏飞
 
+##### 2021 年 12 月 8 日
+
 ---
 
 # 发布时图片大小优化
@@ -78,6 +80,7 @@ module.exports = {
 layout: two-cols
 ---
 # 根据浏览器的 Network Tab 针对性的优化资源
+.
 
 ![Network](network.png)
 
@@ -92,6 +95,8 @@ layout: two-cols
 ---
 
 # Lighthouse
+
+.
 
 ![Light House](lighthouse.png)
 

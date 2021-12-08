@@ -38,6 +38,9 @@ pre {
 
 #### 讲解人：任鹏飞
 
+##### 2021 年 12 月 8 日
+
+幻灯片：https://github.com/lie-flat/slides/tree/master/cfps-report-deployment
 
 ---
 
@@ -139,7 +142,7 @@ $ sudo ln -s /etc/nginx/sites-available/cfps-report.kxxt.tech /etc/nginx/sites-e
 $ sudo systemctl reload nginx
 ```
 
-我们首先为刚刚编写的配置文件在 `/etc/nginx/sites-available` 目录下建立一个软连接，这样做可以 enable 我们的站点配置文件
+我们首先为刚刚编写的配置文件在 `/etc/nginx/sites-enabled` 目录下建立一个软连接，这样做可以 enable 我们的站点配置文件
 
 然后，我们重新加载 nginx，这样我们的网站就可以被人访问了，但是，默认使用的是没有加密的 http。
 
