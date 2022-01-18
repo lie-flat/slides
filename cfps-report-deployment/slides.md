@@ -49,7 +49,7 @@ pre {
 <v-click>
 
 - 我们使用 `Nginx` 进行静态网页的部署
-- ![image-20211206220732601](slides.assets/image-20211206220732601.png)
+- ![image-20211206220732601](/slides.assets/image-20211206220732601.png)
 
 </v-click>
 
