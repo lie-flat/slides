@@ -66,7 +66,7 @@ cfps-jupyterhub
 
 # 整体设计 (因为我没学过计网，如有偏差还请谅解)
 
-![arch](/arch.png)
+<img src="arch.png" style="height: 96%;"/>
 
 ---
 
