@@ -25,7 +25,7 @@ drawings:
 
 #### 讲解人：任鹏飞
 
-#### 2022 年 1 月 18 日
+#### 2022 年 1 月 19 日
 
 幻灯片在 https://github.com/lie-flat/slides 仓库
 
@@ -42,6 +42,10 @@ cfps-jupyterhub/cfps-notebook
 ├── requirements.txt
 ├── start-notebook.sh
 └── startup.py
+```
+
+```
+cfps-jupyterhub/on_container_start_up.sh
 ```
 
 ::right::
@@ -191,3 +195,28 @@ jupyterlab_cfps_preload
 ```bash
 /home/jovyan/data/on_container_start_up.sh >> /tmp/startup.log 2>&1
 ```
+
+---
+
+# on_container_start_up.sh
+
+```bash
+#!/bin/bash
+echo "Copying example notebooks"
+cp -r -u -v ~/data/notebooks/* ~/
+pushd ~/data/notebooks/ || exit
+files=$(find . -type f -name "*.ipynb")
+popd || exit
+echo "Trusting notebooks..."
+pushd ~ || exit
+for file in $files; do
+  jupyter trust "$file"
+done
+popd || exit
+echo "Done"
+```
+
+- 首先把所有示例笔记本都拷贝到用户的家目录
+- 然后获得所有示例笔记本文件相对与顶层文件夹的相对路径的列表
+- 然后把工作目录切到家目录，信任上面的列表中的所有笔记本文件
+- 之所以要去信任这些笔记本，是因为 Jupyter Lab 不会运行不信任的的笔记本的 JavaScript, 导致 ECharts 图表无法自动显示。
