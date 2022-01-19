@@ -55,3 +55,12 @@ JupyterHub 支持多种登录认证的方式， 比如
 # 流程
 
 <img src='/oauth.png' style="height: 90%;"/>
+
+---
+
+# 具体细节
+——
+
+具体的实现细节将会在前端和后端的讲解中讨论，敬请期待。
+
+OAuth2 的介绍和标准参见 https://oauth.net/2/ ， 在此不再赘述。
