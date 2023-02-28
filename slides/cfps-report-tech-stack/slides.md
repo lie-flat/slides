@@ -54,9 +54,9 @@ Yarn 是一个软件包管理器，还可以作为项目管理工具。无论你
 
 ::right::
 
-![Yarn](slides.assets/yarn.svg)
+![Yarn](/slides.assets/yarn.svg)
 
-![See the source image](slides.assets/yarn-vs-npm-in-2019-speed-comparison-in-a-middle-sized-apps.jpg)
+![See the source image](/slides.assets/yarn-vs-npm-in-2019-speed-comparison-in-a-middle-sized-apps.jpg)
 
 <style>
 img {
@@ -82,7 +82,7 @@ Vue3.0
 
 ::right::
 
-![Vue.js](slides.assets/logo.png)
+![Vue.js](/slides.assets/logo.png)
 
 ---
 layout: two-cols
@@ -101,7 +101,7 @@ Bulma is a free, open source framework that provides ready-to-use frontend compo
 
 ::right::
 
-![Bulma: Free, open source, and modern CSS framework based on Flexbox](slides.assets/bulma-logo.png)
+![Bulma: Free, open source, and modern CSS framework based on Flexbox](/slides.assets/bulma-logo.png)
 
 <style>
 img {
@@ -124,7 +124,7 @@ SCSS 在 CSS 的基础上添加了很多强大易用的功能
 
 ::right::
 
-![Sass](slides.assets/logo-b6e1ef6e.svg)
+![Sass](/slides.assets/logo-b6e1ef6e.svg)
 
 
 ---
@@ -142,9 +142,9 @@ echarts & vue-echarts
 
 ::right::
 
-![echarts logo](slides.assets/logo-16388091078794.png)
+![echarts logo](/slides.assets/logo-16388091078794.png)
 
-![image-20211207005239608](slides.assets/image-20211207005239608.png)
+![image-20211207005239608](/slides.assets/image-20211207005239608.png)
 
 <style>
 img {
@@ -159,13 +159,13 @@ layout: two-cols
 
 Animate.css
 
-<img src="slides.assets/b.gif" alt="b" style="zoom:80%;" />
+<img src="/slides.assets/b.gif" alt="b" style="zoom:80%;" />
 
 ::right::
 
 <div>
 
-<img src="slides.assets/animatecss-opengraph.jpg" alt="animatecss-opengraph.jpg" style="zoom:80%;" />
+<img src="/slides.assets/animatecss-opengraph.jpg" alt="animatecss-opengraph.jpg" style="zoom:80%;" />
 
 我们使用 Animate.css 作为动画效果的框架，<del>（其实也没用到多少里面的效果）</del>
 
@@ -186,7 +186,7 @@ layout: two-cols
 # HTTP Server
 HTTP 服务器
 
-![image-20211206220732601](slides.assets/image-20211206220732601.png)
+![image-20211206220732601](/slides.assets/image-20211206220732601.png)
 
 ::right::
 
@@ -204,7 +204,7 @@ layout: two-cols
 # SSL
 SSL & HTTPS
 
-![Let's Encrypt](slides.assets/letsencrypt-logo-horizontal.svg)
+![Let's Encrypt](/slides.assets/letsencrypt-logo-horizontal.svg)
 
 ::right::
 
@@ -231,5 +231,5 @@ https://cn.sli.dev
 
 ::right::
 
-![Slidev](slides.assets/logo-title.png)
+![Slidev](/slides.assets/logo-title.png)
 

@@ -161,4 +161,4 @@ https://pypi.org/project/jupyterlab-cfps-preload/0.2.0/
 
 效果如下, js 文件在刚打开 JupyterHub 时就加载好了：
 
-![x](x.png)
+![x](/x.png)

@@ -294,7 +294,7 @@ layout: two-cols
 <div v-click-hide>Header 组件中，我们使用 Bulma 的 hero 布局，并且将导航栏也放在 hero 中。</div>
 <div v-after>我们直接使用 SVG 引入 Github 和 Bilibili 的图标，并没有使用类似 FontAwesome 那样的库， 节省了页面加载的网络开销</div>
 
-![image-20211207200935516](slides.assets/image-20211207200935516.png)
+![image-20211207200935516](/slides.assets/image-20211207200935516.png)
 
 </div>
 
@@ -525,7 +525,7 @@ export default defineComponent({
 # TableOfContents.vue
 .
 
-![TOC](slides.assets/toc.gif)
+![TOC](/slides.assets/toc.gif)
 
 ---
 

@@ -56,7 +56,7 @@ pre {
 <v-click>
 
 - 采用 Let's Encrypt 提供的免费 SSL 证书
-- ![Let's Encrypt](slides.assets/letsencrypt-logo-horizontal.svg)
+- ![Let's Encrypt](/slides.assets/letsencrypt-logo-horizontal.svg)
 
 </v-click>
 
@@ -204,4 +204,4 @@ layout: two-cols
 
 ::right::
 
-<img src="slides.assets/image-20211207000221264.png" alt="image-20211207000221264" style="height: 100%;" />
+<img src="/slides.assets/image-20211207000221264.png" alt="image-20211207000221264" style="height: 100%;" />

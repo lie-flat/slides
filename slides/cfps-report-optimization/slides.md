@@ -74,7 +74,7 @@ module.exports = {
 # 根据浏览器指出的问题优化网站
 .
 
-![Issues](issues.png)
+![Issues](/issues.png)
 
 ---
 layout: two-cols
@@ -82,7 +82,7 @@ layout: two-cols
 # 根据浏览器的 Network Tab 针对性的优化资源
 .
 
-![Network](network.png)
+![Network](/network.png)
 
 ::right::
 
@@ -98,7 +98,7 @@ layout: two-cols
 
 .
 
-![Light House](lighthouse.png)
+![Light House](/lighthouse.png)
 
 ::right::
 

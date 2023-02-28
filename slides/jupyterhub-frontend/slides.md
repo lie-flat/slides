@@ -568,7 +568,7 @@ export default function SimpleMessage({children, icon, title, color}) {
 
 # 效果图
 
-<img src="simple-message.jpg"  />
+<img src="/simple-message.jpg"  />
 
 ```js
 import React from "react"
